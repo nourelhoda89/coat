@@ -2,20 +2,20 @@ package edu.jalc.zipper;
 public class CoatZipper {
 
 	private boolean withZipper;
-	private final double lenght;
+	private final double length;
 
 	private CoatZipper(){
 		this.withZipper = false;
-	   this.lenght = 0;
+	   this.length = 0;
 	}
 
-	public CoatZipper( double lenght){
+	public CoatZipper( double length){
 
-		this.lenght = lenght;
+		this.length = length;
 		this.withZipper = false;
 	}
 
-	public double getLenght(){ return this.lenght; }
+	public double getLenght(){ return this.length; }
 	public boolean isItWithZipper(){ return this.withZipper; }
 
 	public CoatZipper included(){
@@ -29,6 +29,7 @@ public class CoatZipper {
 	}
 
 	private void setWithZipper(boolean withZipper){
-		this.withZipper = withZipper;}
+		this.withZipper = withZipper;
+      }
 
 }
