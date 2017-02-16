@@ -17,7 +17,7 @@ public class CoatHat {
 	}
 
 	public double getRadius(){ return this.radius; }
-	public boolean isItWithHat(){ return this.withHat; }
+	public boolean isWithHat(){ return this.withHat; }
 
 	public CoatHat included(){
 		this.setWithHat(true);
