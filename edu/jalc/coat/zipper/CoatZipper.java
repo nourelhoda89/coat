@@ -1,4 +1,5 @@
-package edu.jalc.zipper;
+package edu.jalc.coat.zipper;
+
 public class CoatZipper {
 
 	private boolean withZipper;

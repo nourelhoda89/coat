@@ -1,7 +1,7 @@
-package edu.jalc.coat;
+package edu.jalc.coat.coat;
 
-import edu.jalc.design.CoatDesign;
-import edu.jalc.accessories.CoatAccessories;
+import edu.jalc.coat.design.CoatDesign;
+import edu.jalc.coat.accessories.CoatAccessories;
  
 public class Coat{
 

@@ -1,8 +1,8 @@
-package edu.jalc.accessories;
+package edu.jalc.coat.accessories;
 
 
-import edu.jalc.hat.CoatHat;
-import edu.jalc.zipper.CoatZipper;
+import edu.jalc.coat.hat.CoatHat;
+import edu.jalc.coat.zipper.CoatZipper;
 
 public class CoatAccessories{
 

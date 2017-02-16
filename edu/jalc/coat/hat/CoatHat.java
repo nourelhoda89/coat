@@ -1,4 +1,4 @@
-package edu.jalc.hat;
+package edu.jalc.coat.hat;
 
 public class CoatHat {
 
