@@ -1,26 +1,39 @@
 package edu.jalc.coat;
 
- import edu.jalc.design.CoatDesign;
- import edu.jalc.accessories.CoatAccessories;
+import edu.jalc.design.CoatDesign;
+import edu.jalc.accessories.CoatAccessories;
  
- public class Coat{
- private CoatAccessories accessories;
- private final CoatDesign design;
+public class Coat{
+
+   private  CoatAccessories accessories;
+   private  CoatDesign design;
  
- private Coat() throws Exception {
- this.accessories=null;
- this.design =null;
- }
- coat( CoatAccessories accessories,CoatDesign design)throws Exception {
-  this.accessories=accessories;
- this.design =design;
- }
- CoatAccessories getAccessories(){return this.accessories;}
- CoatDesign getDesign(){return this.design;}
+   private Coat() throws Exception {
+      this.accessories =null;
+      this.design =null;
+   }
+   
+   Coat( CoatAccessories accessories,CoatDesign design)throws Exception {
+      this.accessories= accessories;
+      this.design =design;
+   }
+   
+   public CoatAccessories getAccessories (){	
+      return this.accessories; }
+      
+   public CoatDesign getDesign(){
+      return this.design;}
  
- Coat setAccessories (CoatAccessories accessories)throws Exception {
- if (accessories ==null ){throw mew Exception ("CoatAccessories cannot be null");}
-  this.accessories=accessories;
- return this;
- }
  
+   public Coat setAccessories (CoatAccessories accessories)throws Exception {
+      if (accessories ==null ){throw new Exception ("CoatAccessories cannot be null");}
+      this.accessories = accessories;
+      return this;
+   }
+   
+   public Coat setDesign (CoatDesign design)throws Exception {
+      if (design == null ){throw new Exception ("CoatDesign cannot be null");}
+      this.design = design;
+      return this;
+   }
+}

@@ -1,3 +1,5 @@
+package edu.jalc.hat;
+
 public class CoatHat {
 
 	private boolean withHat;

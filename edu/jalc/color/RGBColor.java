@@ -24,3 +24,6 @@ public class RGBColor {
 	}
 
 	public byte getBlue() {
+   return blue;
+}
+}

@@ -23,3 +23,9 @@ public class CoatAccessories{
 	public CoatHat getCoatHat() {
 		return coatHat;
 	}
+   
+	public CoatZipper getCoatZipper() {
+		return coatZipper;
+	}
+
+}

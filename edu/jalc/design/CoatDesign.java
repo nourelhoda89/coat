@@ -15,7 +15,7 @@ public class CoatDesign {
 		this.parkaType = null;
 	}
 
-	public CoatDesign(ParkaType parkaType){
+	public CoatDesign(RGBColor rgbColor,ParkaType parkaType){
 		this.rgbColor = rgbColor;
 		this.parkaType= parkaType;
 	}
@@ -23,3 +23,7 @@ public class CoatDesign {
 	public RGBColor getRgbColor() {
 		return rgbColor;
 	}
+   public ParkaType getParkaType (){
+   return parkaType;
+   }
+   }
