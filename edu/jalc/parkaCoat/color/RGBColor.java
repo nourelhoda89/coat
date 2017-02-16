@@ -1,4 +1,4 @@
-package edu.jalc.coat.color;
+package edu.jalc.parkaCoat.color;
 
 public class RGBColor {
 	private final byte red;

@@ -1,8 +1,8 @@
-package edu.jalc.coat.design;
+package edu.jalc.parkaCoat.design;
 
 
-import edu.jalc.coat.color.RGBColor;
-import edu.jalc.coat.type.ParkaType;
+import edu.jalc.parkaCoat.color.RGBColor;
+import edu.jalc.parkaCoat.type.ParkaType;
 
 public class CoatDesign {
 
