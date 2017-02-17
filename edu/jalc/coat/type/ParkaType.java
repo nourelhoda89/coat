@@ -11,7 +11,7 @@ public class ParkaType {
       this.size = size;
    }
 
-   public String getsize(){
+   public String getSize(){
       return this.size;
    }
 }

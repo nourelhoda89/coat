@@ -6,8 +6,8 @@ import edu.jalc.coat.zipper.CoatZipper;
 
 public class CoatAccessories{
 
-   private final CoatHat coatHat;
-   private final CoatZipper coatZipper;
+   private  CoatHat coatHat;
+   private  CoatZipper coatZipper;
 
    private CoatAccessories(){
       this.coatHat = null;
@@ -19,13 +19,22 @@ public class CoatAccessories{
       this.coatZipper=coatZipper;
    }
 
-
    public CoatHat getCoatHat() {
-      return coatHat;
-   }
+      return coatHat;}
    
    public CoatZipper getCoatZipper() {
-      return coatZipper;
+      return coatZipper;}
+   
+   public CoatAccessories setCoatHat(CoatHat coatHat) throws Exception {
+      if(coatHat == null) throw new Exception("CoatHat cannot be null");
+      this.coatHat = coatHat;
+      return this;
+   }
+   
+   public CoatAccessories setCoatZipper(CoatZipper coatZipper) throws Exception {
+      if(coatZipper == null) throw new Exception("CoatZipper cannot be null");
+      this.coatZipper= coatZipper;
+      return this;
    }
 
 }

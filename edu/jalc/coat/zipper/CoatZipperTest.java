@@ -3,20 +3,20 @@ package edu.jalc.coat.zipper;
 public class CoatZipperTest {
 
    public void testGetLength(){
-      System.out.println("Testing CoatZipper::getLength");
+      System.out.println("Testing CoatZipper :: getLength");
       CoatZipper zipper = new CoatZipper(45);
       assert(45 == zipper.getLength());
    }
 
    public void testIncluded(){
-      System.out.println("Testing CoatZipper::included");
+      System.out.println("Testing CoatZipper :: included");
       CoatZipper zipper = new CoatZipper(30);
       zipper.included();
       assert(zipper.isWithZipper());
    }
 
    public void testNotIncluded(){
-      System.out.println("Testing CoatZipper:: notIncluded");
+      System.out.println("Testing CoatZipper :: notIncluded");
       CoatZipper zipper = new CoatZipper(30);
       zipper.included();
       assert(zipper.isWithZipper());	}
