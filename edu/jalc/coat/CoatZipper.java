@@ -1,4 +1,4 @@
-package edu.jalc.parkaCoat.zipper;
+package edu.jalc.coat;
 
 public class CoatZipper {
 

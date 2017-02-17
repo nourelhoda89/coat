@@ -1,4 +1,4 @@
-package edu.jalc.parkaCoat.type;
+package edu.jalc.coat;
 
 public class ParkaType {
 	private final String size;
