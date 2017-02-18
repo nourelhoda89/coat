@@ -16,10 +16,8 @@ public class CoatZipper {
       this.withZipper = false;
    }
 
-   public double getLength(){ 
-      return this.length; }
-   public boolean isWithZipper(){ 
-      return this.withZipper; }
+   public double getLength(){return this.length; }
+   public boolean isWithZipper(){return this.withZipper; }
 
    public CoatZipper included(){
       this.setWithZipper(true);
