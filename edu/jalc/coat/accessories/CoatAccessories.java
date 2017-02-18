@@ -14,7 +14,7 @@ public class CoatAccessories{
       this.setCoatHat(null);
    }
 
-   CoatAccessories(CoatHat coatHat,CoatZipper coatZipper)throws Exception{
+   public CoatAccessories(CoatHat coatHat,CoatZipper coatZipper)throws Exception{
       this.setCoatHat(coatHat);
       this.setCoatZipper(coatZipper);
    }
