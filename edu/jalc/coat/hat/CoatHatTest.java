@@ -19,7 +19,7 @@ public class CoatHatTest {
       System.out.println("Testing CoatHat: notIncluded");
       CoatHat hat = new CoatHat(4);
       hat.included();
-      assert(hat.isWithHat());	}
+      assert(!hat.isWithHat());	}
 
    public static void main(String... args) throws Exception {
       CoatHatTest test = new CoatHatTest();
