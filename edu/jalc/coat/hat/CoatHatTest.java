@@ -16,10 +16,11 @@ public class CoatHatTest {
    }
 
    public void testNotIncluded(){
-      System.out.println("Testing CoatHat: notIncluded");
+      System.out.println("Testing CoatHat::notIncluded");
       CoatHat hat = new CoatHat(4);
-      hat.included();
-      assert(!hat.isWithHat());	}
+      hat.notIncluded();
+      assert(!hat.isWithHat());	
+   }
 
    public static void main(String... args) throws Exception {
       CoatHatTest test = new CoatHatTest();

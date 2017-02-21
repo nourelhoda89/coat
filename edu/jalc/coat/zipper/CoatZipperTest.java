@@ -18,8 +18,8 @@ public class CoatZipperTest {
    public void testNotIncluded(){
       System.out.println("Testing CoatZipper :: notIncluded");
       CoatZipper zipper = new CoatZipper(30);
-      zipper.included();
-      assert(zipper.isWithZipper());	}
+      zipper.notIncluded();
+      assert(!zipper.isWithZipper());	}
 
    public static void main(String... args) throws Exception {
       CoatZipperTest test = new CoatZipperTest();
