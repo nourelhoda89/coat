@@ -13,7 +13,7 @@ public class Coat{
       this.design =null;
    }
    
-   Coat( CoatAccessories accessories,CoatDesign design)throws Exception {
+   public Coat( CoatAccessories accessories,CoatDesign design)throws Exception {
       this.accessories= accessories;
       this.design =design;
    }
