@@ -3,7 +3,7 @@ package edu.jalc.coat.coat;
 import edu.jalc.coat.design.CoatDesign;
 import edu.jalc.coat.accessories.CoatAccessories;
  
-public class Coat{
+public class Coat implements Inflatable,SelfWashable{
 
    private  CoatAccessories accessories;
    private  CoatDesign design;
@@ -36,4 +36,11 @@ public class Coat{
       this.design = design;
       return this;
    }
+   public void inflate(){
+   System.out.println("Beware your coat is inflating!!");
+   }
+   public void selfWash(){
+   System.out.println("The coat is self washing");
+   }
+
 }
