@@ -1,6 +1,8 @@
 package edu.jalc.coat.hat;
 
-public class CoatHat {
+import edu.jalc.coat.Parachutable;
+
+public class CoatHat implements Glowable,Parachutable{
 
    private boolean withHat;
    private final double radius;
@@ -34,5 +36,12 @@ public class CoatHat {
    private void setWithHat(boolean withHat){
       this.withHat = withHat;
    }
+   public void glow(){
+      System.out.println("Awsome!Glowing coat");
+   }
+   public void deploy(){
+      System.out.println("Parachutable Hat :)");
+   }
+
 
 }
