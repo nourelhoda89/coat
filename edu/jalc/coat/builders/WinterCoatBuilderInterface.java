@@ -6,11 +6,12 @@ import edu.jalc.coat.color.RGBColor;
 
 public interface WinterCoatBuilderInterface{  
   
+   WinterCoatBuilderInterface withoutHat(boolean isHatIncluded);
    WinterCoatBuilderInterface withLargeHat(double largeHatRadius);
    WinterCoatBuilderInterface withSmallHat(double smallHatRadius);
    WinterCoatBuilderInterface withLargeZipper(double largeZipperLength);
    WinterCoatBuilderInterface withSmallZipper(double shortZipperLength); 
-   WinterCoatBuilderInterface oliveGreenColoredCoat(RGBColor green);
-   WinterCoatBuilderInterface azureColoredCoat(RGBColor blue); 
-   public Coat build();
+   WinterCoatBuilderInterface oliveGreenColoredCoat(RGBColor oliveGreen);
+   WinterCoatBuilderInterface azureColoredCoat(RGBColor azureBlue); 
+  /* public Coat build();*/
 }
