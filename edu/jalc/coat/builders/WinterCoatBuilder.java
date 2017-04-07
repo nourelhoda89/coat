@@ -49,7 +49,7 @@ public class  WinterCoatBuilder implements WinterCoatBuilderInterface{
    }
    public WinterCoatBuilderInterface withLargeZipper(double largeZipperLength){
       this.largeZipperLength= largeZipperLength;
-       coatZipper=new CoatZipper( largeZipperLength);
+      coatZipper=new CoatZipper( largeZipperLength);
       return this;
    }
    public WinterCoatBuilderInterface withSmallZipper(double shortZipperLength){
@@ -84,8 +84,8 @@ public class  WinterCoatBuilder implements WinterCoatBuilderInterface{
       if (this.azureBlue==null && this.oliveGreen==null){
          throw new Exception("Your coat needs a color!!");
       }
-   accessories=new CoatAccessories(coatHat,coatZipper);
-    design=new  CoatDesign(rgbColor,null);
+      accessories=new CoatAccessories(coatHat,coatZipper);
+      design=new  CoatDesign(rgbColor,null);
       return new Coat(accessories, design);
    }
 

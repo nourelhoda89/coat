@@ -13,5 +13,5 @@ public interface WinterCoatBuilderInterface{
    WinterCoatBuilderInterface withSmallZipper(double shortZipperLength); 
    WinterCoatBuilderInterface oliveGreenColoredCoat(RGBColor oliveGreen);
    WinterCoatBuilderInterface azureColoredCoat(RGBColor azureBlue); 
-  /* public Coat build();*/
+   public Coat build()throws Exception;
 }
