@@ -1,29 +1,29 @@
 package edu.jalc.coat.color;
 
 public class RGBColor {
-   private final byte red;
-   private final byte green;
-   private final byte blue;
+   private final int red;
+   private final int green;
+   private final int blue;
 
    private RGBColor(){
       this.red = this.green = this.blue = 0;
    }
 
-   public RGBColor(byte red, byte green, byte blue){
+   public RGBColor(int red, int green, int blue){
       this.red = red;
       this.green = green;
       this.blue = blue;
    }
 
-   public byte getRed() {
+   public int getRed() {
       return red;
    }
 
-   public byte getGreen() {
+   public int getGreen() {
       return green;
    }
 
-   public byte getBlue() {
+   public int getBlue() {
       return blue;
    }
 }
