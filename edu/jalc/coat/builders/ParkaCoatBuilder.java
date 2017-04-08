@@ -2,7 +2,7 @@ package edu.jalc.coat.builders;
 
 import edu.jalc.coat.coat.Coat;
 import edu.jalc.coat.color.RGBColor;
-import edu.jalc.coat.accessories. CoatAccessories;
+import edu.jalc.coat.accessories.CoatAccessories;
 import edu.jalc.coat.design.CoatDesign;
 import edu.jalc.coat.hat.CoatHat;
 import edu.jalc.coat.zipper.CoatZipper;
